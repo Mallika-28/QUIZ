@@ -1,0 +1,49 @@
+body{
+    /* background-color: black; */
+    font-family: 'Roboto', sans-serif;
+    background-image : linear-gradient(to bottom, #ffffff 0%, #006666 100%);
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+#after_submit{
+    visibility: hidden;
+}
+.card-panel{
+    background-color:  #e6ffff;
+}
+#messages, #number_correct{
+    color: #fff;
+    font-size: x-large;
+}
+#number_correct{
+    padding-bottom: 100px;
+}
+.button-wrapper{
+    display: flex;
+    justify-content: center;/*to center the button*/
+    padding: 1rem;
+}
+.style-button{
+    text-align: center;
+    padding: 0.5rem 0.5rem;
+    background-color: black;
+}
+.style-button {
+    font-size: 18px;
+    position: relative;
+    width: 100px;
+    height: 37px;
+    transition: all 0.7s;
+    color: white;
+    box-shadow: 0 5px 20px rgba(0,0,0,.5);/*x axis y axis and box shadow*/
+}
+.style-button:hover {
+    cursor: pointer;
+    transition: all 0.7s;
+    background-color: #f2f2f2;
+    color: black;
+}
+#image{
+    width: 600px;
+    height: 400px;
+}
