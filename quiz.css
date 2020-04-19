@@ -9,7 +9,7 @@ background-attachment: fixed;
     visibility: hidden;
 }
 .card-panel{
-    background-color:  #e6ffff;
+    background-color:  #f2f2f2;
 }
 #messages, #number_correct{
     color: #fff;
